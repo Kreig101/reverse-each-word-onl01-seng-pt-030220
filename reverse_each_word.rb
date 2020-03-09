@@ -13,9 +13,9 @@ require 'pry'
 def reverse_each_word(sentence)
   
   sentence.split.collect do |words|
-  puts  words.reverse
+  puts  words
     binding.pry
     
 end
-words
+words.reverse
 end
