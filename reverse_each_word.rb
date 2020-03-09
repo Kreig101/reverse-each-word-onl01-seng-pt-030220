@@ -15,4 +15,5 @@ def reverse_each_word(sentence)
 
     
 end
+words.reverse
 end
