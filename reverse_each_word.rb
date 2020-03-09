@@ -3,9 +3,9 @@ def reverse_each_word(sentence)
   y = []
   
 sentence.each do |words|
-  y << words.reverse
+  y << words
 end
-y.join(", ")
+y.join(", ").reverse
 end
 
  
