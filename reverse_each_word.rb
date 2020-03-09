@@ -14,7 +14,7 @@ def reverse_each_word(sentence)
   
   sentence.split.collect do |words|
   puts  words
-    binding.pry
+    
     
 end
 words.reverse
