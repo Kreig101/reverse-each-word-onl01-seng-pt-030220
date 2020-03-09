@@ -1,14 +1,14 @@
 require 'pry'
-# def reverse_each_word(sentence)
-#   y = []
+def reverse_each_word(sentence)
+  y = []
  
-# sentence.split.each do |words|
+sentence.split.each do |words|
  
-#   y << words.reverse
+  y << words.reverse
  
-# end
-# y
-# end
+end
+y
+end
  
 def reverse_each_word(sentence)
   
