@@ -6,7 +6,7 @@ sentence.split.each do |words|
   y << words.reverse
   # binding.pry
 end
-y
+y.join
 end
  
 # def reverse_each_word(sentence)
