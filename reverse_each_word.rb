@@ -1,9 +1,8 @@
 require 'pry'
 def reverse_each_word(sentence)
   y = []
-  sentence.split
   
-  sentence.each do |words|
+sentence.each do |words|
       
    y << words.reverse
 end
@@ -12,9 +11,9 @@ end
 
  
 def reverse_each_word(sentence)
-
+  sentence.split
   sentence.collect do |words|
-   puts  words.reverse.split
+   puts  words.reverse
 
     
 end
