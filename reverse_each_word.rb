@@ -4,15 +4,16 @@ def reverse_each_word(sentence)
  
 sentence.split.each do |words|
   y << words.reverse
+  binding.pry
 end
 y
 end
  
-def reverse_each_word(sentence)
+# def reverse_each_word(sentence)
   
-  sentence.split.collect do |words|
-   puts  words.reverse
+#   sentence.split.collect do |words|
+#   puts  words.reverse
 
     
-end
-end
+# end
+# end
