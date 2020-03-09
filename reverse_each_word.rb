@@ -1,6 +1,8 @@
 require 'pry'
 def reverse_each_word(sentence)
   y = []
+  sentence.split
+  
   sentence.each do |words|
       
    y << words.reverse
