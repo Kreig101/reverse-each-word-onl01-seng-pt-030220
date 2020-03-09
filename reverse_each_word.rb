@@ -4,7 +4,7 @@ def reverse_each_word(sentence)
  
 sentence.split.each do |words|
   y << words.reverse
-  binding.pry
+  # binding.pry
 end
 y
 end
