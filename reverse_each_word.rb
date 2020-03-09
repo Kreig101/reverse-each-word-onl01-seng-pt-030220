@@ -3,8 +3,9 @@ def reverse_each_word(sentence)
   y = []
  
 sentence.split.each do |words|
+   binding.pry
   y << words.reverse
-  binding.pry
+ 
 end
 y
 end
